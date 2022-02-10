@@ -5,21 +5,26 @@
     <title>Adopt-A-Dog | Our Dogs</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <script
       src="https://code.jquery.com/jquery-3.6.0.min.js"
       integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
-      crossorigin="anonymous"></script>
+      crossorigin="anonymous">
+    </script>
   </head>
 
   <body>
     <header>
-      <div>
+      <div class="header-left">
         <img src="images/adoptadog-logo.svg" alt="AdoptADog logo">
         <h3>Seattle's Premiere dog adoption agency</h3>
       </div>
-      <div>
-        <p><img class="cart-icon" src="images/cart-icon.svg" alt="cart icon"> $1234.56</p>
+      <div class="header-right">
+        <div>
+          <img class="cart-icon" src="images/cart-icon.svg" alt="cart icon">
+          <p id='cart-value'>$0</p>
+        </div>
         <a class="checkout" href="checkout.html">Checkout</a>
       </div>
     </header>
@@ -43,7 +48,7 @@
               <h3>Murphy</h3>
               <p class="price">$123.45</p>
               <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-              <button onclick="addToTotal(123.45)">Adopt</button>
+              <button>Adopt</button>
             </div>
           </section>
 
@@ -53,7 +58,7 @@
               <h3>Poppy</h3>
               <p class="price">$123.45</p>
               <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-              <button onclick="addToTotal(123.45)">Adopt</button>
+              <button>Adopt</button>
             </div>
           </section>
 
@@ -63,7 +68,7 @@
               <h3>Jack</h3>
               <p class="price">$123.45</p>
               <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-              <button onclick="addToTotal(123.45)">Adopt</button>
+              <button>Adopt</button>
             </div>
           </section>
 
@@ -73,7 +78,7 @@
               <h3>Duffy</h3>
               <p class="price">$123.45</p>
               <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-              <button onclick="addToTotal(123.45)">Adopt</button>
+              <button>Adopt</button>
             </div>
           </section>
 
@@ -83,7 +88,7 @@
               <h3>Lucas</h3>
               <p class="price">$123.45</p>
               <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-              <button onclick="addToTotal(123.45)">Adopt</button>
+              <button>Adopt</button>
             </div>
           </section>
 
@@ -93,7 +98,7 @@
               <h3>Jake</h3>
               <p class="price">$123.45</p>
               <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-              <button onclick="addToTotal(123.45)">Adopt</button>
+              <button>Adopt</button>
             </div>
           </section>
 
@@ -103,7 +108,7 @@
               <h3>Angus</h3>
               <p class="price">$123.45</p>
               <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-              <button onclick="addToTotal(123.45)">Adopt</button>
+              <button>Adopt</button>
             </div>
           </section>
 
@@ -113,7 +118,7 @@
               <h3>Violet</h3>
               <p class="price">$123.45</p>
               <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-              <button onclick="addToTotal(123.45)">Adopt</button>
+              <button>Adopt</button>
             </div>
           </section>
 
@@ -123,7 +128,7 @@
               <h3>Piper</h3>
               <p class="price">$123.45</p>
               <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-              <button onclick="addToTotal(123.45)">Adopt</button>
+              <button>Adopt</button>
             </div>
           </section>
 
@@ -133,7 +138,7 @@
               <h3>Maximus</h3>
               <p class="price">$123.45</p>
               <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-              <button onclick="addToTotal(123.45)">Adopt</button>
+              <button>Adopt</button>
             </div>
           </section>
 
@@ -143,7 +148,7 @@
               <h3>Luna</h3>
               <p class="price">$123.45</p>
               <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-              <button onclick="addToTotal(123.45)">Adopt</button>
+              <button>Adopt</button>
             </div>
           </section>
 
@@ -153,7 +158,7 @@
               <h3>Stella</h3>
               <p class="price">$123.45</p>
               <p>Corrum volorit iandae nimaxim cum restia volor reicid ut et etur sunt arum rendae pla endis re ea erum, qui doluptae</p>
-              <button onclick="addToTotal(123.45)">Adopt</button>
+              <button>Adopt</button>
             </div>
           </section>
         </article>
@@ -174,6 +179,6 @@
         <p>© 2018 Adoptadog, LLC | Seattle, WA</p>
       </div>
     </footer>
-    <script src="./main.js" charset="utf-8"></script>
+    <script src="./main.js"></script>
   </body>
 </html>

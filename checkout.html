@@ -5,17 +5,21 @@
     <title>Adopt-A-Dog | Checkout</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
   </head>
 
   <body>
     <header>
-      <div>
+      <div class="header-left">
         <img src="images/adoptadog-logo.svg" alt="AdoptADog logo">
         <h3>Seattle's Premiere dog adoption agency</h3>
       </div>
-      <div>
-        <p><img class="cart-icon" src="images/cart-icon.svg" alt="cart icon"> $1234.56</p>
+      <div class="header-right">
+        <div>
+          <img class="cart-icon" src="images/cart-icon.svg" alt="cart icon">
+          <p id='cart-value'>$0</p>
+        </div>
         <a class="checkout" href="checkout.html">Checkout</a>
       </div>
     </header>
