@@ -1,10 +1,8 @@
 * {
   box-sizing: border-box;
-  font-family: "Gill Sans", sans-serif;
 }
 
 h1, h2, h3, h4, h5, form label, form fieldset legend {
-  font-family: 'Courier New', Courier, monospace;
   color: #093C60;
 }
 
@@ -62,7 +60,6 @@ a.gray-button-link:hover {
   color: white;
 }
 
-
 body header {
   width: 100%;
   height: 350px;
@@ -74,13 +71,22 @@ body header {
   padding: 2rem 5rem;
 }
 
-body header div:first-child {
+.header-left {
   float: left;
 }
 
-body header div:nth-of-type(2) {
+.header-right {
   text-align: right;
   float: right;
+}
+
+.header-right div {
+  padding-bottom: .5rem;
+}
+
+body header #cart-value {
+  float: right;
+  line-height: 0;
 }
 
 body header img {
@@ -152,6 +158,7 @@ nav li a:hover {
 
 .cart-icon {
   height: 20px;
+  margin-right: 1rem;
 }
 
 main {

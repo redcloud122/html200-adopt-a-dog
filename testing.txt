@@ -1,0 +1,85 @@
+User Personas
+=============
+
+1. Purpose and vision for AdoptADog:
+
+  The main purpose for the AdoptADog website is to facilitate the dog adoption process, by presenting clear and easy-to-navigate information on the dogs that are waiting to be adopted.
+
+  The vision for the site is to attract dog lovers to visit the site frequently.  Eventually, the site shall provide a platform on which a community composed of the kennel staff, the current and prospective dog owners, and the dog lovers in general, can share ideas, lessons, anecdotes, tricks, etc.  Thus, more dogs can find their homes sooner.
+
+
+2. Persona One:  Prospective Dog Adopter
+
+  Fictional Name:
+    Mary Jane
+
+  Job title:
+    
+  Demographics:
+    * In her early 30s
+    * Single
+    * No children
+    * Works for a tech company, with a busy schedule
+    * Has a BA degree
+
+  Goals and tasks:
+    * Mary has a busy work-life schedule.
+
+    * Her goal is to visit the site, select several dogs as potential adoptees based on information given on the site, make an appointment with the kennel staff to meet the dogs.
+
+    * At the kennel, she will make her final decision on a dog to adopt.
+
+  Environment:
+    Mary is tech-savvy.
+    At work she uses DELL PCs (desktop and laptop).
+    She also owns an iPhone and a MacBook laptop.
+
+3. Persona Two:  Dog Lover
+
+  Fictional Name:
+    Betty C
+
+  Demographics:
+    * In her 50s
+    * Married
+    * Has a full-time job
+    * Has a teen son    
+    * Has a dog
+    * Is an enthusiastic dog lover
+    * Has a BS degree
+
+  Goals and tasks:
+    * Betty enjoys watching dog videos.
+    * She loves to read and share dog stories.
+
+  Environment:
+    * Betty is comfortable using computer.
+    * She browses Internet on her iPad in spare time.
+
+
+Testing
+=======
+
+1. Validated all 4 html pages (blog, checkout, dogs, index) on HTML5 validator, https://validator.w3.org/nu/#textarea
+
+2. Validated style.css on CSS validator, http://jigsaw.w3.org/css-validator/#validate_by_input
+
+3. Tested the site in 3 browsers (Edge, Firefox, and Chrome) and their emulators of iPad and iPhone for responsiveness.
+    * Text, controls & images are aligned.
+    * Hover effects and color changes are consistent.
+    * No element runs into edges of screen.
+    * Horizontal bar is not visible.
+    * All pages are readable.
+
+    * Interesting finding:
+     In the iPad emulator in Edge and Chrome, the mouseenter/mouseleave event in dogs.html works as expected.  In that the dog image flips horizontally, and the color of the Adopt button fades in/out.  However, this event does not work in the iPad emulator in Firefox.
+
+
+Changes Made
+============
+1. The HTML validator identified some errors.  They are corrected accordingly.
+
+2. The responsiveness testing identified the checkout button in the header area ran over the bottom edge when viewed in a browser with narrowed width.  This happened in all 3 browsers.  They are fixed accordingly.
+
+3. The browser development tool identified a JavaScript error in dogs.html.  It is corrected.
+
